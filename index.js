@@ -1,5 +1,5 @@
 const express = require("express");
-const db = require('./sql')
+// const db = require('./sql')
 
 // const RagistrationLogin = require('./Routes/RagistrationLogin')
 // const Attendance = require('./Routes/Attendance.js')
