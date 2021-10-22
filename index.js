@@ -1,4 +1,4 @@
-// const { json, response } = require("express");
+const { json, response } = require("express");
 const express = require("express");
 // const RagistrationLogin = require('./Routes/RagistrationLogin/index')
 // const Attendance = require('./Routes/Attendance')
@@ -6,7 +6,7 @@ const app = express();
 const post = process.env.PORT || 3000
 
 
-// app.use(express.json());
+app.use(express.json());
 // app.use(RagistrationLogin)
 // app.use(Attendance)
 app.get("/", (req, res) => {
