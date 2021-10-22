@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const db = require('../../sql/sql')
+const db = require('../sql')
 
 
 router.post('/attendance', function (req, res) {

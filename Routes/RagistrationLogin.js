@@ -1,9 +1,8 @@
 const router = require('express').Router();
 const bcrypt = require('bcrypt');
-const db = require('../../sql/sql')
+const db = require('../sql')
 
 router.post('/ragistration', async (req, res) => {
-    console.log("hejsdkf")
     try {
         const { name, email, password } = req.body
         const salt = await bcrypt.genSalt()

@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 
 const credentials = {
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    host: '166.62.10.189',
+    user: 'zolopro',
+    password: 'Zolopro@123',
     database: 'zolopro'
 }
 
@@ -26,3 +26,4 @@ pool.on('error', function (err) {
 
 
 module.exports = pool
+
