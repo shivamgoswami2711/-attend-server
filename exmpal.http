@@ -1,0 +1,8 @@
+POST  http://localhost:3000/ragistration
+Content-Type: application/json
+
+{
+  "name": "shivam",
+  "email": "shivamgoswami2711@gmail.com",
+  "password": "skj5f53h3423hsdf2gdf2h4"
+}
